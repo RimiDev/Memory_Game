@@ -1,0 +1,97 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <script src="memoryGameJS.js"></script>
+  <link rel="stylesheet" href="memoryGameStyle.css">
+	<meta charset="utf-8"/>
+
+<title>
+  Memory Game Madness
+</title>
+
+</head>
+
+<body>
+<!--Top portion of the window: Start/end buttons and turnCount-->
+<section id="userControls">
+  <button id="playAgainButton">Play Again</button>
+  <button id="endButton">End</button>
+  <div id="turns">
+    <p id="turn"> </p>
+  </div>
+</section>
+
+<!--Instructions for the game given -->
+<section id="gameInstructions">
+  <h1> is your memory good? Lets test it out ! </h1>
+  <p>The game is very simple, you have to click two images that will show you two
+  different images. Try to remember what the images are so that if you see
+  the image again, you know exactly where to click ! </p>
+  <p>The goal of the game is to clear the board in the least amount of turns possible!</p>
+  <p> Click the start button on the top left corner whenever you are mentally prepared.</p>
+  <p>Good luck kid!</p>
+</section>
+
+<!-- BOTTOM LAYER AKA GAMEBOARD SPACE -->
+
+
+<div id="gameBoard">
+  <img src="images/pig_botlayer.jpg" alt="happy piglet" id="botlayer"/>
+</div>
+
+
+<!-- MIDDLE LAYER -->
+
+<div id="middlelayerDIV">
+<div class="middleLayer" id="animal0"></div>
+<div class="middleLayer" id="animal1"></div>
+<div class="middleLayer" id="animal2"></div>
+<div class="middleLayer" id="animal3"></div>
+
+<div class="middleLayer" id="animal4"></div>
+<div class="middleLayer" id="animal5"></div>
+<div class="middleLayer" id="animal6"></div>
+<div class="middleLayer" id="animal7"></div>
+
+<div class="middleLayer" id="animal8"></div>
+<div class="middleLayer" id="animal9"></div>
+<div class="middleLayer" id="animal10"></div>
+<div class="middleLayer" id="animal11"></div>
+
+<div class="middleLayer" id="animal12"></div>
+<div class="middleLayer" id="animal13"></div>
+<div class="middleLayer" id="animal14"></div>
+<div class="middleLayer" id="animal15"></div>
+</div>
+
+
+<!-- TOP LAYER -->
+
+<div id="toplayerDIV">
+<div class="topLayer" id="tile0"></div>
+<div class="topLayer" id="tile1"></div>
+<div class="topLayer" id="tile2"></div>
+<div class="topLayer" id="tile3"></div>
+
+<div class="topLayer" id="tile4"></div>
+<div class="topLayer" id="tile5"></div>
+<div class="topLayer" id="tile6"></div>
+<div class="topLayer" id="tile7"></div>
+
+<div class="topLayer" id="tile8"></div>
+<div class="topLayer" id="tile9"></div>
+<div class="topLayer" id="tile10"></div>
+<div class="topLayer" id="tile11"></div>
+
+<div class="topLayer" id="tile12"></div>
+<div class="topLayer" id="tile13"></div>
+<div class="topLayer" id="tile14"></div>
+<div class="topLayer" id="tile15"></div>
+</div>
+
+
+
+</body>
+
+
+</html>
